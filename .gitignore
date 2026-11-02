@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Environment files
+.env
+.env*
+!.env.example
+
+# Audio & Media files generated at runtime
+*.wav
+*.mp3
+*.ogg
+*.flac
+voiceai-main/backend/cache/*
+!voiceai-main/backend/cache/.gitkeep
+
+# Logs
+logs/
+*.log
+voiceai-main/backend/logs/*
+!voiceai-main/backend/logs/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
